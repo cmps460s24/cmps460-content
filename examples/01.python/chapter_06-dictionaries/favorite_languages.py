@@ -3,7 +3,7 @@ favorite_languages = {
       'sarah': ['c'],
       'samir': ['rust', 'go'],
       'fatima': ['python', 'haskell'],
-      }
+}
 
 for name, languages in favorite_languages.items():
     print(f"\n{name.title()}'s favorite languages are:")
