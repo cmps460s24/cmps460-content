@@ -1,15 +1,15 @@
 Age,Income,Is_Student,Credit_Rating,Buy_iPhone
-Less than 25 ,High,No,Fair,No
-Less than 25 ,High,No,Excellent,No
+Less than 25,High,No,Fair,No
+Less than 25,High,No,Excellent,No
 25 to 35,High,No,Fair,Yes
 Greater than 35,Medium,No,Fair,Yes
 Greater than 35,Low,Yes,Fair,Yes
 Greater than 35,Low,Yes,Excellent,No
 25 to 35,Low,Yes,Excellent,Yes
-Less than 25 ,Medium,No,Fair,No
-Less than 25 ,Low,Yes,Fair,Yes
+Less than 25,Medium,No,Fair,No
+Less than 25,Low,Yes,Fair,Yes
 Greater than 35,Medium,Yes,Fair,Yes
-Less than 25 ,Medium,Yes,Excellent,Yes
+Less than 25,Medium,Yes,Excellent,Yes
 25 to 35,Medium,No,Excellent,Yes
 25 to 35,High,Yes,Fair,Yes
 Greater than 35,Medium,No,Excellent,No
