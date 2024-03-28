@@ -12,6 +12,7 @@ class LinearRegression:
 
     def fit(self, X, y):
         n_samples, n_features = X.shape
+        print("n_samples, n_features", n_samples, n_features)   
         self.weights = np.zeros(n_features)
         self.bias = 0
 
@@ -20,6 +21,9 @@ class LinearRegression:
 
             dw = (1/n_samples) * np.dot(X.T, (y_pred-y))
             db = (1/n_samples) * np.sum(y_pred-y)
+
+            print("dw", dw)
+            print("db", db)
 
             self.weights = self.weights - self.lr * dw
             self.bias = self.bias - self.lr * db
