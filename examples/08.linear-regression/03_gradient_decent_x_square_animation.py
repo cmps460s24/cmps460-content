@@ -26,7 +26,7 @@ def f_derivative(x):
 
 current_pos = (-90, f(-90))
 
-learning_rate = 1
+learning_rate = 0.01
 for i in range(300):
     new_x = current_pos[0] - learning_rate * f_derivative(current_pos[0])
     new_y = f(new_x)
